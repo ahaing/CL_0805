@@ -22,3 +22,5 @@ plotF.plot(y2)
 plt.show()
 
 # https://streamlit.io/ => 一個免費的 document
+# Home/Streamlit library/Get started/Installation
+# pip install streamlit
