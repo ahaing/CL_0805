@@ -2,7 +2,7 @@ import numpy as np
 import matplotlib.pyplot as plt 
 
 # 用 streamlit 在網頁上畫圖
-import streamlit as st
+import streamlit as stlit
 
 # 弳度
 t = np.arange(0.,1.0, 0.05)
@@ -10,7 +10,7 @@ print(t)
 # display(t) => .py檔裡面沒有display
 
 # 畫 t 上去
-st.write(t) 
+stlit.write(t) 
 
 y1 = np.sin(2 * np.pi * t) # 弳度換角度
 # display(y1)
@@ -28,7 +28,7 @@ plotF = figure1.add_subplot()
 plotF.plot(y1)
 plotF.plot(y2)
 # plt.show()
-st.write(figure1)
+stlit.write(figure1)
 
 # https://streamlit.io/ => 一個免費的 document
 # Home/Streamlit library/Get started/Installation
