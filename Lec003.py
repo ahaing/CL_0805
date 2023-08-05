@@ -20,8 +20,8 @@ y2 = np.cos(2 * np.pi * t) # 弳度換角度
 #display(y2)
 # print(y2)
 
-st.write(y1)
-st.write(y2)
+stlit.write(y1)
+stlit.write(y2)
 figure1 = plt.figure(figsize=(8,4))
 plotF = figure1.add_subplot()
 # axes2 = figure1.add_subplot()
