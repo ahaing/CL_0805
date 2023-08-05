@@ -20,3 +20,5 @@ plotF = figure1.add_subplot()
 plotF.plot(y1)
 plotF.plot(y2)
 plt.show()
+
+# https://streamlit.io/ => 一個免費的 document
