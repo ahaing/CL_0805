@@ -2,3 +2,5 @@ https://ithelp.ithome.com.tw/articles/10205113?sc=rss.iron
 
 pip install plotly #動態圖
 matplotlib #靜態的(一張圖)
+
+https://112-python-chihlee-nicdwyyjwxfbfaj7busmwb.streamlit.app/
